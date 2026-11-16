@@ -21,8 +21,9 @@ Not affiliated with HubSpot, Inc.
 - **Category:** Workflow & Planning (or Productivity)
 - **Language:** English
 - **Screenshot:** `store/screenshot-1280x800.png`
+- **Small promo tile (440×280):** `store/promo-440x280.png`
 - **Store icon (128×128):** `icons/128.png`
-- **Homepage URL:** https://github.com/sjmunoz/dark-mode-for-hubspot
+- **Homepage URL:** https://sjmunoz.github.io/dark-mode-for-hubspot/
 - **Support URL:** https://github.com/sjmunoz/dark-mode-for-hubspot/issues
 
 ## Privacy practices tab
