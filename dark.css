@@ -1,0 +1,18 @@
+/*
+ * Dark mode by inversion. The rules apply by default, so the page does not
+ * show white before the stored setting loads. content.js sets
+ * <html data-hsdm="off"> to turn the rules off.
+ *
+ * The page gets invert(0.9): white becomes #1a1a1a, not pure black.
+ * Media gets invert(1) again, so photos, logos and avatars keep near-normal colors.
+ */
+html:not([data-hsdm="off"]) {
+  background-color: #fff !important;
+  filter: invert(0.9) hue-rotate(180deg) !important;
+}
+
+html:not([data-hsdm="off"]) img,
+html:not([data-hsdm="off"]) video,
+html:not([data-hsdm="off"]) canvas {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
