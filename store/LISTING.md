@@ -7,15 +7,14 @@ Upload: `dist/dark-mode-for-hubspot-1.0.0.zip` (build: `zip -X dist/dark-mode-fo
 **Description**
 
 ```
-Dark Mode for HubSpot puts the HubSpot web app in a dark theme.
+Makes HubSpot dark, so it is easier on your eyes.
 
-• One click: click the toolbar icon, or press Alt+Shift+D, to turn dark mode on or off.
-• Works on app.hubspot.com and the HubSpot regional app domains.
-• Photos, logos and avatars keep their real colors.
-• Free and open source: https://github.com/sjmunoz/dark-mode-for-hubspot
-• Collects no data. Uses one permission (storage) to save the on/off setting.
+• Click the icon to turn it on or off. Or press Alt+Shift+D.
+• Pictures and logos keep their normal colors.
+• Free. The code is public: https://github.com/sjmunoz/dark-mode-for-hubspot
+• Collects no data. It only remembers if dark mode is on or off.
 
-Not affiliated with HubSpot, Inc.
+Not made by HubSpot.
 ```
 
 - **Category:** Workflow & Planning (or Productivity)
@@ -28,9 +27,9 @@ Not affiliated with HubSpot, Inc.
 
 ## Privacy practices tab
 
-- **Single purpose:** `Applies a dark color theme to the HubSpot web app.`
-- **Permission justification — storage:** `Saves one setting: whether dark mode is on or off.`
-- **Host permission justification** (content script on HubSpot app domains): `The extension adds CSS to HubSpot app pages to change their colors. It does not read or send page content.`
+- **Single purpose:** `Makes the HubSpot web app dark.`
+- **Permission justification — storage:** `Remembers if dark mode is on or off.`
+- **Host permission justification** (content script on HubSpot app domains): `Changes the colors of HubSpot pages. It does not read or send anything on the page.`
 - **Remote code:** No, I am not using remote code.
 - **Data usage:** check no data types. Certify all three disclosures.
 - **Privacy policy URL:** https://github.com/sjmunoz/dark-mode-for-hubspot/blob/main/PRIVACY.md

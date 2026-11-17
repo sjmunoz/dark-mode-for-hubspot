@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Dark Mode for HubSpot",
   "version": "1.0.0",
-  "description": "Dark theme for the HubSpot web app. Click the icon or press Alt+Shift+D to turn it on or off. Not affiliated with HubSpot.",
+  "description": "Makes HubSpot dark. Click the icon or press Alt+Shift+D to turn it on or off. Not made by HubSpot.",
   "permissions": [
     "storage"
   ],
